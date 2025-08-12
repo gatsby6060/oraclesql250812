@@ -1,0 +1,12 @@
+-- 4. DELETE (레코드 삭제)
+SELECT * FROM STUDENT;
+--DELETE FROM STUDENT;
+
+--DELETE FROM student WHERE STU_NAME = '홍길동';
+DELETE FROM student WHERE STU_NAME = '홍길동';
+
+DELETE FROM student WHERE STU_NAME IN ('김철수','홍길동');
+
+COMMIT;
+
+ROLLBACK;
